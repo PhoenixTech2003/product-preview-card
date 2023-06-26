@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(243, 228, 209);
 }
 
 *{
@@ -12,7 +13,7 @@ body{
 }
 
 .content-container{
-    border: 5px solid blue;
+    background-color: white;
 }
 
 .content{
@@ -43,8 +44,14 @@ body{
 
 .first-heading{
     margin-top: 30px;
+    margin-bottom: 15px;
     font-size: 18px;
     letter-spacing: 6px;
     font-family: 'Courier New', Courier, monospace;
     color: grey;
+}
+
+.right h1 {
+    font-size: 40px;
+    line-height: 35px;
 }
