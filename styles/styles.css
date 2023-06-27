@@ -37,6 +37,7 @@ body{
     flex-shrink: 1;
     flex-basis:300px;
     
+    
 }
 
 .content img{
@@ -82,4 +83,14 @@ body{
     align-self: center;
     text-decoration: line-through;
     color: grey;
+}
+
+.add{
+    background-color: rgb(56, 156, 123);
+    color: white;
+    width: 250px;
+    border: none;
+    border-radius: 7px;
+    padding:20px 50px ;
+
 }
